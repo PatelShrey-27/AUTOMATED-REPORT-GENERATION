@@ -22,24 +22,25 @@ To begin with, I created a simulated dataset that resembled a basic sales record
 Data Analysis
 Once the CSV was created, I read it back into the program using pandas.read_csv(). I performed a few basic analytics on the revenue data to summarize performance over the five-day period. Specifically, I calculated:
 
-Total Revenue
+-> Total Revenue
 
-Average Revenue
+-> Average Revenue
 
-Maximum and Minimum Revenue
+-> Maximum and Minimum Revenue
 
-Top-performing Product
+-> Top-performing Product
 
 PDF Report Creation
 For the reporting part, I used the FPDF library to generate a clean and readable PDF. After importing the library and initializing a PDF object, I formatted the report by setting fonts, creating headings, and aligning text.
 
 The report included:
 
-A title (“Sales Report”) centered at the top of the page
+-> A title (“Sales Report”) centered at the top of the page
 
-A summary of key metrics including total, average, min, and max revenue
+-> A summary of key metrics including total, average, min, and max revenue
 
-The name of the top-performing product based on revenue
-These metrics are commonly used in sales and financial reports to give an instant overview of business performance and identify trends or anomalies.
+-> The name of the top-performing product based on revenue
+
+*OUTPUT*:
 
 ![sales report pdf](https://github.com/user-attachments/assets/bc78b169-e31b-4010-b577-22e2561f222e)
